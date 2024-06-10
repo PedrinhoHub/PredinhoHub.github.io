@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../javascript/main.js"></script>
+    <title>Lista</title>
+</head>
+<body>
+    <header>
+        <h1>Lista</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Introdução</a>
+        <a href="#Lista">Lista</a>
+        <a href="api.html">Api</a>
+        <a href="botao.html">Botão</a>
+
+    </nav>
+    <main>
+        <div id="lista">
+            <h1>Lista </h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Data de Nascimento</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João Silva</td>
+                        <td>joao.silva@gmail.com</td>
+                        <td>01/01/1990</td>
+                        <td><button onclick="deletarLinha(this)">Deletar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Maria Oliveira</td>
+                        <td>maria.oliveira@hotmail.com</td>
+                        <td>15/05/1985</td>
+                        <td><button onclick="deletarLinha(this)">Deletar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Souza</td>
+                        <td>carlos.souza@yahoo.com</td>
+                        <td>20/09/1975</td>
+                        <td><button onclick="deletarLinha(this)">Deletar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Ana Pereira</td>
+                        <td>ana.pereira@upf.br</td>
+                        <td>30/11/2000</td>
+                        <td><button onclick="deletarLinha(this)">Deletar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>Lista</p>
+    </footer>
+</body>
+</html>
